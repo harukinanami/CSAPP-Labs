@@ -1,0 +1,25 @@
+实验提交内容：
+1、完善后的mm.c文件
+2、跑分截图
+3、实验报告
+
+格式：
+学号-姓名-lab5
+
+参考过程：
+
+1、参考所附文档 lab6-malloclab.pptx、 malloclab.pdf 等
+
+2、在 malloclab-handout 目录下操作，
+  编辑 mm.c，完善其中有关的函数
+
+3、运行 make, 编译得到 mdriver
+> make
+
+4、运行 mdriver，利用 short1-bal.rep、short2-bal.rep、或 ./traces 这些测试数据进行跑分,例如：
+> ./mdriver -av -f short1-bal.rep
+> ./mdriver -av -f short2-bal.rep
+> ./mdriver -av -t traces/
+
+5、形成报告并提交
+
